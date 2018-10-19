@@ -1,0 +1,37 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# *.[oa]
+# *~
+workspace
+# /
+/.tomcatplugin
+.project
+/.cvsignore
+.classpath
+/.idea
+/.vscode
+/work
+/index
+/.amateras
+/.umlproject
+/files2
+/system2
+/tooMany.html
+/files3
+/files4
+/index-4rs
+/attachments
+/junit-report
+*.ipr
+*.iws
+/out
+
+*.iml
+*.ipr
+*.iws
+*.~m2
+
+*/out
+
+.settings
+
