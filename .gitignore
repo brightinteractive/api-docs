@@ -25,6 +25,7 @@ workspace
 *.ipr
 *.iws
 /out
+.DS_Store
 
 *.iml
 *.ipr
@@ -34,4 +35,3 @@ workspace
 */out
 
 .settings
-
