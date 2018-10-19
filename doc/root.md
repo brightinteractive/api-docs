@@ -13,7 +13,7 @@ Example:
 
 Response:
 
-```json
+```javascript
 {
     "api_name":"AssetBank RESTful API",
 
