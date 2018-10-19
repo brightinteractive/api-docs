@@ -1,3 +1,7 @@
+---
+title: Root resource
+---
+
 # API Root Resource
 ## GET
 The Root of Asset Bank's Jersey-based RESTful API. A GET request on this resource returns a dictionary containing versioned links to the various sub-components of the API.
