@@ -9,7 +9,9 @@ Note that some of the links provided here are to, internal-use-only resources th
 
 Example:
 
-```curl -X GET -H "Accept: application/json" http://127.0.0.1:8080/asset-bank/rest/```
+```
+curl -X GET -H "Accept: application/json" http://127.0.0.1:8080/asset-bank/rest/
+```
 
 Response:
 
@@ -40,18 +42,18 @@ Response:
         "publishingActionsUrl": "http://127.0.0.1:8080/asset-bank/rest/publishing-actions"
     },
     "api_version_1_3": {
-        "accessLevelSearchUrl": "http://127.0.0.1:8080/asset-bank/rest/access-level-search", 
-        "assetSearchUrl": "http://127.0.0.1:8080/asset-bank/rest/asset-search", 
-        "assetsUrl": "http://127.0.0.1:8080/asset-bank/rest/assets", 
-        "attributesUrl": "http://127.0.0.1:8080/asset-bank/rest/attributes", 
-        "categorySearchUrl": "http://127.0.0.1:8080/asset-bank/rest/category-search", 
-        "checkoutUrl": "http://127.0.0.1:8080/asset-bank/rest/checkout", 
-        "displayAttributeGroupUrl": "http://127.0.0.1:8080/asset-bank/rest/display-attribute-groups", 
-        "editorDependenciesUrl": "http://127.0.0.1:8080/asset-bank/rest/editor-dependencies", 
-        "lightboxesUrl": "http://127.0.0.1:8080/asset-bank/rest/lightboxes", 
-        "publishingActionsUrl": "http://127.0.0.1:8080/asset-bank/rest/publishing-actions", 
-        "signingUrl": "http://127.0.0.1:8080/asset-bank/rest/sign-url", 
-        "userSearchUrl": "http://127.0.0.1:8080/asset-bank/rest/user-search", 
+        "accessLevelSearchUrl": "http://127.0.0.1:8080/asset-bank/rest/access-level-search",
+        "assetSearchUrl": "http://127.0.0.1:8080/asset-bank/rest/asset-search",
+        "assetsUrl": "http://127.0.0.1:8080/asset-bank/rest/assets",
+        "attributesUrl": "http://127.0.0.1:8080/asset-bank/rest/attributes",
+        "categorySearchUrl": "http://127.0.0.1:8080/asset-bank/rest/category-search",
+        "checkoutUrl": "http://127.0.0.1:8080/asset-bank/rest/checkout",
+        "displayAttributeGroupUrl": "http://127.0.0.1:8080/asset-bank/rest/display-attribute-groups",
+        "editorDependenciesUrl": "http://127.0.0.1:8080/asset-bank/rest/editor-dependencies",
+        "lightboxesUrl": "http://127.0.0.1:8080/asset-bank/rest/lightboxes",
+        "publishingActionsUrl": "http://127.0.0.1:8080/asset-bank/rest/publishing-actions",
+        "signingUrl": "http://127.0.0.1:8080/asset-bank/rest/sign-url",
+        "userSearchUrl": "http://127.0.0.1:8080/asset-bank/rest/user-search",
         "usersUrl": "http://127.0.0.1:8080/asset-bank/rest/users"
     }
 }
