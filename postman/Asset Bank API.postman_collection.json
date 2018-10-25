@@ -255,6 +255,73 @@
 			]
 		},
 		{
+			"name": "Authorization",
+			"description": "",
+			"item": [
+				{
+					"name": "OAuth2 Password Grant",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "password",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/asset-bank/oauth/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"asset-bank",
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Root API",
 			"request": {
 				"method": "GET",
