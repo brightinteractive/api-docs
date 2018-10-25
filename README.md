@@ -1,6 +1,10 @@
 API Docs
 ========
 
+All endpoints available are documented below, although some are intended for internal use only.
+
+There is a [Postman](https://www.getpostman.com/) collection available [here](postman/Asset Bank API.postman_collection.json) which is gradually being expanded.
+
 
 | URL Name | Methods allowed |
 | ------------- | -----:|
