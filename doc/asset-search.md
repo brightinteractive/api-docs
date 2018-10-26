@@ -5,13 +5,17 @@ This is mostly a wrapper around Asset Bank's front-end search, i.e. the request 
 
 To perform a search using the API you GET this resource’s URL with the required search parameters. The search parameters that can be passed are similar to those passed to the search action in Asset Bank so that is often a good place to start when identifying the parameters that you need to provide the API request.
 
+
 ### Attributes
+
 ```
 attribute_{id}
 ```
 Searching for assets with a particular attribute value is a case of providing a parameter with the name attribute_<id> and a value specifying what you want to search for (<id> obviously needs to be replaced with the id of the attribute you want to search).
 
+
 ### Other Criteria
+
 | Parameter |Description|
 | -------- | ---|
 | dateAddedLower |  ISO 8601 Date Time |
