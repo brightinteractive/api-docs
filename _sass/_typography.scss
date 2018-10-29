@@ -1,0 +1,17 @@
+// ----------------------------------
+// Typography
+// ----------------------------------
+@import "settings";
+
+body {
+	font-family: 'Open Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: $grey-steel;
+}
+
+pre {
+	padding: $gutter;
+	background: $grey-smoke;
+	overflow: auto;
+	color: $grey-charcoal;
+}
+

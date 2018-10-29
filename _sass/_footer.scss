@@ -1,9 +1,8 @@
 // ----------------------------------
-// Layout
+// Footer
 // ----------------------------------
 @import "settings";
 
-.wrapper {
-	max-width: $standard-width;
-	margin: 0 auto;
+.footer {
+	margin: calc(#{$gutter} * 2) auto;
 }
