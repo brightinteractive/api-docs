@@ -5,6 +5,9 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "base",
-    "something"
+    "normalise",
+    "settings",
+    "header",
+    "layout",
+    "typography"
 ;
