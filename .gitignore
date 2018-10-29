@@ -35,3 +35,7 @@ workspace
 */out
 
 .settings
+
+Gemfile
+Gemfile.lock
+_site/
