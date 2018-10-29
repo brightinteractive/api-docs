@@ -3,10 +3,27 @@
 // ----------------------------------
 @import "settings";
 
+
+@font-face {
+    font-family: 'Netto Pro';
+    src: url('../fonts/NettoPro-Bold.eot');
+    src: url('../fonts/NettoPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NettoPro-Bold.woff2') format('woff2'),
+        url('../fonts/NettoPro-Bold.woff') format('woff'),
+        url('../fonts/NettoPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
 	font-family: 'Open Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: $grey-steel;
 }
+
+h1, h2 {
+	font-family: 'Netto Pro', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
 
 pre {
 	padding: $gutter;
@@ -15,3 +32,12 @@ pre {
 	color: $grey-charcoal;
 }
 
+a,
+a:visited {
+    color: $brand-teal;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
