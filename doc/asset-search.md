@@ -16,28 +16,96 @@ Searching for assets with a particular attribute value is a case of providing a 
 
 ### Other Criteria
 
-| Parameter |Description|
-| -------- | ---|
-| dateAddedLower |  ISO 8601 Date Time |
-| dateAddedUpper | ISO 8601 Date Time|
-| dateModLower | ISO 8601 Date Time|
-| dateModUpper | ISO 8601 Date Time|
-| dateDownloadedLower | ISO 8601 Date Time|
-| dateDownloadedUpper | ISO 8601 Date Time|
-| sortAttributeId ||
-| sortDescending | either true or false (false by default)|
-| assetIds | either a single asset ID or a range of asset IDs (e.g. ‘1-10’ for ‘1 to 10’).|
-| assetTypeId ||
-| filename ||
-| orientation | integer constant representing the desired orientation (1 = landscape, 2 = portrait, 3 = square, 0 = any)|
-| descriptiveCategoryForm.categoryIds | ID of the category an asset must be in. To search across multiple categories provide multiple instances of the parameter e.g. descriptiveCategoryForm.categoryIds=1&descriptiveCategoryForm.categoryIds=2. Please note specifying multiple parameter values will return all assets in one or more of the specified categories (i.e. an asset does not need to be in all of the specified categories to be included in the results).|
-| permissionCategoryForm.categoryIds | ID of the access level an asset must be in. To search across multiple access levels provide multiple instances of the parameter e.g. permissionCategoryForm.categoryIds=1&permissionCategoryForm.categoryIds=2. Please note specifying multiple parameter values will return all assets in one or more of the specified access levels. (i.e. an asset does not need to be in all of the specified access levels to be included in the results).|
-| includeImplicitCategoryMembers | true or false indicating whether sub category members should be returned|
-| promoted | true, false or both|
-| approvalStatuses | if ‘full’ only fully approved assets will be returned, if ‘none’ then only assets which have not been approved will be returned and if omitted then assets in any approval state will be returned|
-| unsubmitted | if true, only assets which have not been submitted for approval will be returned, if false only assets which have either been submitted and are awaiting approval or have been submitted and approved will be returned. If omitted assets in any submission state will be returned.|
-| userId or username  | specifies a user to constrain the search results to (i.e. returned results will be ones that the user in question has permission to see). If omitted, the results will be constrained by the permissions of the currently authenticated user (if using OAuth2), or the application user (otherwise).|
-| parentIds | an id or list of ids to return locate child assets|
+<table class="standard-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dateAddedLower</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
+      <td>dateAddedUpper</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
+      <td>dateModLower</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
+      <td>dateModUpper</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
+      <td>dateDownloadedLower</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
+      <td>dateDownloadedUpper</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
+      <td>sortAttributeId</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>sortDescending</td>
+      <td>either true or false (false by default)</td>
+    </tr>
+    <tr>
+      <td>assetIds</td>
+      <td>either a single asset ID or a range of asset IDs (e.g. ‘1-10’ for ‘1 to 10’).</td>
+    </tr>
+    <tr>
+      <td>assetTypeId</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>filename</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>orientation</td>
+      <td>integer constant representing the desired orientation (1 = landscape, 2 = portrait, 3 = square, 0 = any)</td>
+    </tr>
+    <tr>
+      <td>descriptiveCategoryForm.categoryIds</td>
+      <td>ID of the category an asset must be in. To search across multiple categories provide multiple instances of the parameter e.g. descriptiveCategoryForm.categoryIds=1&amp;descriptiveCategoryForm.categoryIds=2. Please note specifying multiple parameter values will return all assets in one or more of the specified categories (i.e. an asset does not need to be in all of the specified categories to be included in the results).</td>
+    </tr>
+    <tr>
+      <td>permissionCategoryForm.categoryIds</td>
+      <td>ID of the access level an asset must be in. To search across multiple access levels provide multiple instances of the parameter e.g. permissionCategoryForm.categoryIds=1&amp;permissionCategoryForm.categoryIds=2. Please note specifying multiple parameter values will return all assets in one or more of the specified access levels. (i.e. an asset does not need to be in all of the specified access levels to be included in the results).</td>
+    </tr>
+    <tr>
+      <td>includeImplicitCategoryMembers</td>
+      <td>true or false indicating whether sub category members should be returned</td>
+    </tr>
+    <tr>
+      <td>promoted</td>
+      <td>true, false or both</td>
+    </tr>
+    <tr>
+      <td>approvalStatuses</td>
+      <td>if ‘full’ only fully approved assets will be returned, if ‘none’ then only assets which have not been approved will be returned and if omitted then assets in any approval state will be returned</td>
+    </tr>
+    <tr>
+      <td>unsubmitted</td>
+      <td>if true, only assets which have not been submitted for approval will be returned, if false only assets which have either been submitted and are awaiting approval or have been submitted and approved will be returned. If omitted assets in any submission state will be returned.</td>
+    </tr>
+    <tr>
+      <td>userId or username</td>
+      <td>specifies a user to constrain the search results to (i.e. returned results will be ones that the user in question has permission to see). If omitted, the results will be constrained by the permissions of the currently authenticated user (if using OAuth2), or the application user (otherwise).</td>
+    </tr>
+    <tr>
+      <td>parentIds</td>
+      <td>an id or list of ids to return locate child assets</td>
+    </tr>
+  </tbody>
+</table>
 
 The datetime fields should be url encoded using ISO 8601 Date Time.
 

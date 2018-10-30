@@ -4,7 +4,9 @@
 Returns the Access Level Instance Resource urls for all Access Levels in the system.
 
 Example:
-```curl -X GET -H "Accept: application/json" http://127.0.0.1:8080/asset-bank/rest/access-levels > al.json
+
+```
+curl -X GET -H "Accept: application/json" http://127.0.0.1:8080/asset-bank/rest/access-levels > al.json
 ```
 
 Response (contents of "al.json" file):

@@ -8,7 +8,7 @@ Example:
 curl -X GET -H "Accept: application/json" http://127.0.0.1:8080/asset-bank/rest/embedded-data-mappings > mappings.json
 ```
 
-Response (contents of "mappings.json" file):</p>
+Response (contents of "mappings.json" file):
 ```
 [
     {"url":"http://127.0.0.1:8080/asset-bank/rest/embedded-data-mappings/1",

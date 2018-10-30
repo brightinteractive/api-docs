@@ -1,0 +1,74 @@
+// ------------------------------------------------------------------
+//  A very simple reset that sits on top of Normalize.css
+// ------------------------------------------------------------------
+@import "settings";
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+figure,
+table,
+caption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+
+// Always declare margins in the same direction:
+// csswizardry.com/2012/06/single-direction-margin-declarations
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+figure,
+table,
+caption,
+hr {
+	margin-bottom: $gutter;
+}
+
+p {
+	margin-bottom: $gutter / 2;
+}
+
+
+h1,
+h2,
+h3 {
+	margin-top: $gutter * 2;
+}
+
+
+// Colours
+// -------------------------------------
+
+h1,h2 {
+	color: $grey-charcoal;
+}

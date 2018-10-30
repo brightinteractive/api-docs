@@ -1,5 +1,6 @@
 # Editor Dependencies Resource
 This Resource is for internal use only, and must not be used by regular API clients.
+
 ## GET
   Returns a primary URL for the asset, and optionally a list of secondary URLs.
 
