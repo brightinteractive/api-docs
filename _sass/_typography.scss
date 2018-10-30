@@ -30,6 +30,7 @@ pre {
 	background: $grey-smoke;
 	overflow: auto;
 	color: $grey-charcoal;
+    margin-bottom: $gutter * 2;
 }
 
 a,
@@ -40,4 +41,8 @@ a:visited {
     &:hover {
         opacity: 0.8;
     }
+}
+
+p {
+    line-height: 1.8;
 }
