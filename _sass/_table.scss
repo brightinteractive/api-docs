@@ -24,6 +24,15 @@ tr {
 
 // Asset Search Resource table
 // ------------------------------------------------------------------
-#other-criteria + table td{
-	max-width: 65%;
+.standard-table {
+	margin-bottom: $gutter * 2;
+}
+
+.standard-table tr{
+	justify-content: flex-start;
+}
+
+.standard-table th,
+.standard-table td{
+	width: 40%;
 }
