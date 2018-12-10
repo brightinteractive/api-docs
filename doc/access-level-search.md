@@ -3,11 +3,33 @@
 
 Searches for access levels based on the given criteria.
 Access levels that match the given criteria are returned along with their descendants.
+
 The ‘Accept-Language’ http header may optionally be provided to get a particular translation of the category. If this is not provided or it is not a valid Asset Bank language code, the default language will be used.
-Parameters
-parentId (optional): Asset Bank id of the access level to use as the root node of the tree search.
-userId (optional): Asset Bank id of the user to restrict the returned tree to (i.e. only return access levels that would be visible to this user if they logged in to Asset Bank). If omitted, the returned tree will be restricted by the permissions of the currently authenticated user (if using OAuth2), or the application user.
-count (optional): true or false parameter to determine whether to include the asset count for the requested access levels, if a userId has been provided counts returned will be restricted to assets visible to the selected user, otherwise it will be the full count of all assets in the access levels. Note: retrieving counts may place a higher load on the server.
+
+### Parameters
+
+<table class="standard-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>count</td>
+      <td>true or false : determine whether to include the asset count for the requested access levels, if a userId has been provided counts returned will be restricted to assets visible to the selected user, otherwise it will be the full count of all assets in the access levels. Note: retrieving counts may place a higher load on the server</td>
+    </tr>
+    <tr>
+      <td>userId</td>
+      <td>Asset Bank id of the user to restrict the returned tree to (i.e. only return access levels that would be visible to this user if they logged in to Asset Bank). If omitted, the returned tree will be restricted by the permissions of the currently authenticated user (if using OAuth2)</td>
+    </tr>
+    <tr>
+      <td>parentId</td>
+      <td>Asset Bank id of the access level to use as the root node of the tree search.</td>
+    </tr> 
+  </tbody>
+</table>
 
 Example:
 ```
