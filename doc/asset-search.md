@@ -11,8 +11,24 @@ To perform a search using the API you GET this resource’s URL with the require
 ```
 attribute_{id}
 ```
-Searching for assets with a particular attribute value is a case of providing a parameter with the name attribute_<id> and a value specifying what you want to search for (<id> obviously needs to be replaced with the id of the attribute you want to search).
+Searching for assets with a particular attribute value is a case of providing a parameter with the name attribute_<id> and a value specifying what you want to search for (<id> needs to be replaced with the id of the attribute you want to search).
+	
+e.g.
+```
+http://127.0.0.1:8080/asset-bank/rest/asset-search?attribute_3=bridge
+```
 
+#### Advanced
+For _text_ attributes, many of the search tips described on our [help centre article](https://support.assetbank.co.uk/hc/en-gb/articles/115005221048-Search-Tips) can be used here.
+
+e.g.
+```
+http://127.0.0.1:8080/asset-bank/rest/asset-search?attribute_3=bridge+NOT+river
+http://127.0.0.1:8080/asset-bank/rest/asset-search?attribute_3=bridge+OR+river
+http://127.0.0.1:8080/asset-bank/rest/asset-search?attribute_3=bri*
+http://127.0.0.1:8080/asset-bank/rest/asset-search?attribute_3=isempty
+http://localhost:8080/asset-bank/rest/asset-search?attribute_3=*+NOT+isempty
+```
 
 ### Other Criteria
 
