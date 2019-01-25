@@ -2,7 +2,9 @@
 ## GET
 Lists the attributes for the given asset.
 
-Note: The approved field in the asset returned by this resource is read only (i.e. submitting a PUT request to it won’t change the approval status of the asset). It’s potential values are true or false (i.e. it doesn’t support the partial approval status that can result when an asset is in multiple workflows - those assets will be shown as unapproved).
+The ‘Accept-Language’ HTTP header may optionally be provided to get a particular translation of an attribute's label and value. If this is not provided or it is not a valid Asset Bank language code, the default language will be used.
+
+Note: The approved field in the asset returned by this resource is read only (i.e. submitting a PUT request to it won’t change the approval status of the asset). Its potential values are true or false (i.e. it doesn’t support the partial approval status that can result when an asset is in multiple workflows - those assets will be shown as unapproved).
 
 Example:
 ```
