@@ -4,7 +4,13 @@ API Docs
 All endpoints available are documented below, although some are intended for internal use only.
 
 There is a [Postman](https://www.getpostman.com/) collection available [here](https://github.com/brightinteractive/api-docs/tree/master/postman) which is gradually being expanded.
+<br>
+<br>
 
+##### Authentication
+API requests should be authenticated using an OAuth 2.0 Bearer token in the **Authorization** header. To see a sample app that obtains the OAuth token and uses it to call the API, click [here](https://github.com/brightinteractive/sample-oauth-app).
+<br>
+<br>
 
 | URL Name | Methods allowed |
 | ------------- | -----:|
