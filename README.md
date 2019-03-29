@@ -11,6 +11,10 @@ Authentication
 
 API requests should be authenticated using an OAuth 2.0 Bearer token in the **Authorization** header. To see a sample app that obtains the OAuth token and uses it to call the API, click [here](https://github.com/brightinteractive/sample-oauth-app).
 
+How to ....
+-----------
+
+[Upload a new asset](doc/how-to-upload.md)
 
 Endpoints
 ---------
