@@ -15,8 +15,7 @@ curl -v -X POST -H "Content-type: application/json" --data
 {
   "accessLevels": [{"id": 1}], 
   "createAsUserId" : "1", 
-  "submit" : "false", 
-  "assetTypeUrl": "http://127.0.0.1:8080/asset-bank/rest/asset-types/2"
+  "submit" : "false"
 }
 ' http://127.0.0.1:8080/asset-bank/rest/assets
 ```
@@ -47,6 +46,8 @@ Response:
 See [asset documentation](doc/asset.md).
 
 ## update asset metadata
+
+### Get attributes for asset
 
 Example (JSON):
 ```
@@ -85,6 +86,12 @@ Response:
   "unwatermarkedLargeImageUrl": "http://127.0.0.1:8080/asset-bank/servlet/display?file=8a8.jpg",
   "approved": true
 }
+```
+
+### Put attributes for asset
+
+```
+curl -X PUT -H "Content-Type: application/json" -H "Accept: application/json" --data "@asset.json" http://127.0.0.1:8080/asset-bank/rest/assets/1?userId=10
 ```
 
 See [content documentation](doc/content.md).
