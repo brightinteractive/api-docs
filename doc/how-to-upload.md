@@ -26,7 +26,7 @@ Response:
 Location: http://127.0.0.1:8080/asset-bank/rest/assets/16
 ```
 
-See [assets documentation](doc/assets.md).
+See [assets documentation](assets.md).
 
 ## Upload Content
 
@@ -43,7 +43,7 @@ Response:
 200 OK
 ```
 
-See [content documentation](doc/content.md).
+See [content documentation](content.md).
 
 ## update asset metadata
 
@@ -94,4 +94,4 @@ Response:
 curl -X PUT -H "Content-Type: application/json" -H "Accept: application/json" --data "@asset.json" http://127.0.0.1:8080/asset-bank/rest/assets/1?userId=10
 ```
 
-See [asset documentation](doc/asset.md).
+See [asset documentation](asset.md).
