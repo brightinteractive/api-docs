@@ -159,6 +159,8 @@ Response:
 				file=8874ee565b95cb952d.jpg",
 		"thumbnailUrl":"http://127.0.0.1:8080/asset-bank/servlet/display?
 				file=95cb952d8874ee565b.jpg",
+		"typeId": 1,
+		"typeName": "Asset type name",
 		"displayAttributes": [
 			{
 				"label":"Drawing Title",
