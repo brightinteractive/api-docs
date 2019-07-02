@@ -131,7 +131,7 @@ Example
 2018-09-24T10:56:55%2B01:00
 ```
 
-By default the results are paged (defaulting to 100 assets per page). To select a particular page provide a page=[pagenumber] parameter. The 100 results per page default can be overridden with a parameter (pageSize=[requiredPageSize]). If you don't want paging then set the ApiAssetSearchPageSize setting in the system settings to be 0 (N.B. making requests to Asset Bank for large result sets via the API will put a heavy load on the server).
+Results from this endpoint are paged. The maximum number of results per page is 1000, and the default is 100. You can view this value in your Asset Bank in Admin -> System -> Rest API Settings. Paging is implemented to ensure that your Asset Bank remains performant whilst making API requests. To select a particular page provide a page=[pagenumber] parameter. The 100 results per page default can be overridden with a parameter (pageSize=[requiredPageSize]).
 
 Summary information about each asset is returned, not the full asset details (the reason for this is so that the data can be loaded exclusively from the search index, rather than having to load full asset data from the database). The attributes included are the same ones that are included in search results within the application; these can be changed in Admin -> Attributes -> Display Attributes -> Searching -> API Search results.
 
