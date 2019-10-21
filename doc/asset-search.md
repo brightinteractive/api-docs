@@ -74,7 +74,9 @@ http://localhost:8080/asset-bank/rest/asset-search?attribute_3=*+NOT+isempty
     </tr>
     <tr>
       <td>assetIds</td>
-      <td>either a single asset ID or a range of asset IDs (e.g. ‘1-10’ for ‘1 to 10’).</td>
+      <td>either a single asset ID or a range of asset IDs (e.g. ‘1-10’ for ‘1 to 10’).
+	    Valid values: {2-3}, {1}, 1, 2-3
+	    Comma separated is not valid</td>
     </tr>
     <tr>
       <td>assetTypeId</td>
