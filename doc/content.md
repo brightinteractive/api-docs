@@ -1,6 +1,6 @@
 # Asset Content Resource
 ## GET
-This resource doesn't serves the asset content directly. Instead it returns a 303 redirect to a signed URL which serves the content.
+This resource doesn't serve the asset content directly. Instead it returns a 303 redirect to a signed URL which serves the content.
 This URL will either be an S3 URL or an Asset Bank file servlet URL depending on where the asset file is stored.
 
 Example:
@@ -52,8 +52,7 @@ Response:
 
 Asset Content URL Resource
 ## GET
-The above asset content resource doesn't serves the asset content directly, instead it returns a 303 redirect to a signed  URL which  serves the content.
-This resource returns that URL in the body of a 200 response rather than in the Location header of the 303 response.
+The above asset content resource doesn't serve the asset content directly, instead it returns the URL that serves the content in the body of a 200 response.
 This is a convenience resource for callers who don't want to immediately read the content but instead pass the signed URL onto something else that will.
 
 Example:
