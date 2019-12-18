@@ -27,7 +27,7 @@ Returns a 201 Created response if successful, linking to the new Access Level re
 
 Example:
 ```
-curl -v -X POST -H "Content-type: application/json" --data '{"name": "Templates", "parent": "http://127.0.0.1:8080/asset-bank/rest/access-levels/6"}' http://127.0.0.1:8080/asset-bank/rest/access-levels
+curl -v -H "Content-type: application/json" --data '{"name": "Templates", "parent": "http://127.0.0.1:8080/asset-bank/rest/access-levels/6"}' http://127.0.0.1:8080/asset-bank/rest/access-levels
 ```
 
 
