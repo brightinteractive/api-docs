@@ -163,6 +163,7 @@ Response:
 				file=95cb952d8874ee565b.jpg",
 		"typeId": 1,
 		"typeName": "Asset type name",
+		"accessLevelIds": "1,2",
 		"displayAttributes": [
 			{
 				"label":"Drawing Title",
