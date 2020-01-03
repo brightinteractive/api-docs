@@ -88,6 +88,7 @@ Response:
     <...ETC...>
   ],
   "parents":["http://127.0.0.1:8080/asset-bank/rest/assets/10"],
+  "accessLevelIds": "1",
   "submitted": true,
   "url": "http://127.0.0.1:8080/asset-bank/rest/assets/1",
   "contentUrl": "http://127.0.0.1:8080/asset-bank/rest/assets/1/content",
