@@ -24,8 +24,7 @@ Endpoints
 | [rootUrl](doc/root.md) | GET |
 | [/access-levels/{id}/image](doc/access-level-image.md) | GET, PUT, DELETE |
 | [/access-level-search](doc/access-level-search.md) | GET |
-| [/access-levels](doc/access-levels.md) | GET, POST |
-| [/access-level](doc/access-level.md) | GET, PUT, DELETE |
+| [/access-levels](doc/access-levels.md) | GET, POST, PUT, DELETE |
 | [/checkout](doc/checkout.md) | GET, PUT |
 | [/assets/{id}/content](doc/content.md) | GET, PUT |
 | [/assets/{id}/conversion](doc/conversion.md) | GET |
