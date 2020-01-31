@@ -1,7 +1,7 @@
 # User Lightboxes Resource
 ## GET
 Returns a list of lightboxes for a given user.
-Each item in the list will contain the lightbox name and size,  and links to the Lightbox Instance Resource and the Lightbox Contents Resource.
+Each item in the list will contain the lightbox name, description, size and links to the Lightbox Instance Resource and the Lightbox Contents Resource.
 
 Example (read the lightboxes for user id 1):
 ```
@@ -17,7 +17,8 @@ Response:
         "lightboxContentsUrl": "http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes/1/contents",
         "lightboxPublicUrl": null,
         "name": "My Lightbox",
-        "size": 3
+        "size": 3,
+        "description": "My description"
     },
     {
  		"id": 30,
@@ -25,18 +26,19 @@ Response:
         "lightboxContentsUrl": "http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes/30/contents",
         "lightboxPublicUrl": "http://127.0.0.1:8080/asset-bank/action/viewPublicAssetBox?assetBoxId=30",
         "name": "My second lightbox",
-        "size": 0
+        "size": 0,
+         "description": "My descond description"
     }
 ]
 ```
 
 ## POST
-Creates a new lightbox with the given name, for the given user.
+Creates a new lightbox with the given name and description (optional), for the given user.
 If the new lightbox is created successfully then a 201 created response is returned, linking to the Lightbox Instance Resource. If the user already has a lightbox with exactly the same name as the one provided then a 409 Conflict response is returned.
 
 Example (JSON):
 ```
-curl -v -X POST -H "Content-type: application/json" --data '{"name":"my new lightbox"}' http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes
+curl -v -X POST -H "Content-type: application/json" --data '{"name":"my new lightbox", "description":"my lightbox description"}' http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes
 ```
 
 

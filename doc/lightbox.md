@@ -13,9 +13,10 @@ Response (contents of "lightbox.json" file):
 "id": 1,
 "name": "My Lightbox",
 "size": 3,
- 	"lightboxContentsUrl": "http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes/1/contents",
- 	"lightboxContentsUrl": "http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes/1/contents",
-	"lightboxPublicUrl":  "http://127.0.0.1:8080/asset-bank/action/viewPublicAssetBox?assetBoxId=1",
+"lightboxContentsUrl": "http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes/1/contents",
+"lightboxContentsUrl": "http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes/1/contents",
+"lightboxPublicUrl":  "http://127.0.0.1:8080/asset-bank/action/viewPublicAssetBox?assetBoxId=1",
+"description": "My description"
 }
 ```
 
