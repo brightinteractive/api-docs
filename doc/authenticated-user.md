@@ -17,6 +17,7 @@ Response:
     "lightboxUrl": "http://127.0.0.1:8080/asset-bank/rest/users/616/lightboxes",
     "surname": "Admin",
     "url": "http://127.0.0.1:8080/asset-bank/rest/users/616",
-    "username": "admin2"
+    "username": "admin2",
+    "isAdmin": true
 }
 ```
