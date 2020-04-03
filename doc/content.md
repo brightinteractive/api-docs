@@ -23,9 +23,9 @@ Returns a 200 OK response with no content.
 **userId** (optional): Asset Bank id of the user to update the asset file content as. The user must have edit permission on the asset. If omitted, the asset will be updated by the currently authenticated user (if using OAuth2), or the application user.
 When acting as a user who is not the application user, the user must have the appropriate permission to edit the asset. If not the PUT will be refused. If the user has only edit with approval permission on the asset then it will go through the standard approval process and the new asset file will need to be approved before being visible to other users.
 
-extractEmbeddedData (optional, defaults to false): whether to extract embedded metadata from the asset file. When true this option will allow to populate the asset attributes based on the "embedded data mappings" configuration.
+**extractEmbeddedData** (optional, defaults to false): whether to extract embedded metadata from the asset file. When true this option will allow to populate the asset attributes based on the "embedded data mappings" configuration.
 
-* NB Implementation detail: This also represents the behaviour of PrecursorFileResource, in a way that is transparent to the client.
+*NB Implementation detail:* This also represents the behaviour of PrecursorFileResource, in a way that is transparent to the client.
 The POST method is also supported, for internal use only.  In the case of a PrecursorFileResource a POST request will result in a 202 Accepted response, linking to a Precursor File Save Status Resource.
 
 
