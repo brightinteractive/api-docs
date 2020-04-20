@@ -2,11 +2,34 @@
 ## GET
 Searches for categories based on the given criteria.
 categories that match the given criteria are returned along with their descendants.
+
 The ‘Accept-Language’ http header may optionally be provided to get a particular translation of the category. If this is not provided or it is not a valid Asset Bank language code, the default language will be used.
-Parameters
-parentId (optional): Asset Bank id of the category to use as the root node of the tree search.
-userId (optional): Asset Bank id of the user to restrict the returned tree to (i.e. only return categories that would be visible to this user if they logged in to Asset Bank). If omitted, the returned tree will be restricted by the permissions of the currently authenticated user (if using OAuth2), or the application user (otherwise).
-count (optional): If true, include a count of the number of assets in each category in the response. If userId is specified then this count will be of the number of assets visible to the user specified. Note: retrieving counts may place a higher load on the server.
+
+### Parameters
+
+
+<table class="standard-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>parentId (optional)</td>
+      <td>Asset Bank id of the category to use as the root node of the tree search.</td>
+    </tr>
+    <tr>
+      <td>userId (optional)</td>
+      <td>Asset Bank id of the user to restrict the returned tree to (i.e. only return categories that would be visible to this user if they logged in to Asset Bank). If omitted, the returned tree will be restricted by the permissions of the currently authenticated user (if using OAuth2), or the application user (otherwise).</td>
+    </tr>
+    <tr>
+      <td>count (optional)</td>
+      <td>If true, include a count of the number of assets in each category in the response. If userId is specified then this count will be of the number of assets visible to the user specified. Note: retrieving counts may place a higher load on the server.</td>
+    </tr> 
+  </tbody>
+</table>
 
 Example:
 ```
