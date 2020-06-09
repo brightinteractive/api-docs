@@ -60,5 +60,5 @@ Endpoints
 | [/temp-chunked-files/{id}/{number}](doc/temp-chunk.md) | PUT |
 | [/sign-url](doc/sign-url.md) | POST |
 | [/user-search](doc/user-search.md) | GET |
-| [/users](doc/users.md) | GET, POST |
+| [/users](doc/users.md) | GET, POST, DELETE |
 | [/users/{id}](doc/user.md) | GET, PUT |
