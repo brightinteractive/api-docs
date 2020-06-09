@@ -34,7 +34,7 @@ Response:
 ```
 
 
-#Lightbox Contents Resource
+# Lightbox Contents Resource
 ## GET
 Returns the contents of a given lightbox.
 Each asset will represent an individual asset in the lightbox, and will contain a list of attributes for that asset, and a link to an Asset Instance Resource.
