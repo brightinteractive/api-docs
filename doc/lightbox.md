@@ -20,8 +20,21 @@ Response (contents of "lightbox.json" file):
 }
 ```
 
+## DELETE
+Deletes the given lightbox. Returns a 204 "No Content" response back.
 
-Lightbox Contents Resource
+Example:
+```
+curl -X DELETE http://127.0.0.1:8080/asset-bank/users/1/lightboxes/1
+```
+
+Response:
+```
+204 No Content
+```
+
+
+#Lightbox Contents Resource
 ## GET
 Returns the contents of a given lightbox.
 Each asset will represent an individual asset in the lightbox, and will contain a list of attributes for that asset, and a link to an Asset Instance Resource.
@@ -101,7 +114,7 @@ Response:
 Location: http://127.0.0.1:8080/asset-bank/rest/users/1/lightboxes/1/contents/2
 ```
 
-Asset In Lightbox Resource
+# Asset In Lightbox Resource
 ## GET
 Returns links to the Asset Instance Resource and Lightbox Instance Resource
 

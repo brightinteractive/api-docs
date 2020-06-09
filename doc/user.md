@@ -47,3 +47,17 @@ Response:
     "isAdmin": true
 }
 ```
+
+
+## DELETE
+Deletes the given user. Returns a 204 "No Content" response back.
+
+Example:
+```
+curl -X DELETE http://127.0.0.1:8080/asset-bank/rest/users/7
+```
+
+Response:
+```
+204 No Content
+```
