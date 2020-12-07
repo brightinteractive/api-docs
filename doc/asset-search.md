@@ -41,6 +41,10 @@ http://localhost:8080/asset-bank/rest/asset-search?attribute_3=*+NOT+isempty
   </thead>
   <tbody>
     <tr>
+      <td>keywords</td>
+      <td>Specifies one or more keywords to search for in attributes that have been marked as keyword searchable by an Asset Bank administrator. You can use the special search terms detailed in the above help centre article to construct compleex keyword searches (i.e. "red OR green OR blue")</td>
+    </tr>
+    <tr>
       <td>dateAddedLower</td>
       <td>ISO 8601 Date Time</td>
     </tr>
@@ -121,6 +125,10 @@ http://localhost:8080/asset-bank/rest/asset-search?attribute_3=*+NOT+isempty
     <tr>
       <td>parentIds</td>
       <td>an id or list of ids to return locate child assets</td>
+    </tr>
+    <tr>
+      <td>attributeQueryConjunction</td>
+      <td>AND or OR. This controls how multiple attribute searches are combined. Determines whether an asset has to have all the selected attribute search values or any of them.  Defaults to AND.</td>
     </tr>
   </tbody>
 </table>
