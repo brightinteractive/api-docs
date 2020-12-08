@@ -1,5 +1,5 @@
 # Temp Chunked Files Base Resource
-For a step by step guide to chunked file upload see http://www.assetbank.co.uk/go/knowledgebase/upload-chunks.html.
+For a step by step guide to chunked file upload see https://support.assetbank.co.uk/hc/en-gb/articles/115005047247-Chunk-Upload-Developer-s-Guide.
 ## POST
 Returns a 201 Created response, linking to a new Temp Chunked File resource.  The new resource has no content, so you will need to subsequently issue one or more PUT requests to the Temp Chunked File resource to upload the contents of the file.
 
