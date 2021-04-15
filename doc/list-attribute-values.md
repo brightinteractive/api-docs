@@ -3,15 +3,17 @@
 Returns the allowed values for the given List Attribute.
 
 Example:
-```curl -X GET -H "Accept: application/json" http://127.0.0.1:8080/asset-bank/rest/attributes/21/list-attribute-values > listValues.json
+```
+curl -X GET -H "Accept: application/json" http://127.0.0.1:8080/asset-bank/rest/attributes/21/list-attribute-values > listValues.json
 ```
 
 
 Response (contents of "listValues.json" file):
 ```
 [
-{"url":"http://127.0.0.1:8080/asset-bank/rest/list-attribute-values/6","value":"Inactive","additionalValue":"Inactive (no longer visible)"},	{"url":"http://127.0.0.1:8080/asset-bank/rest/list-attribute-values/7","value":"Active","additionalValue":""},
-{"url":"http://127.0.0.1:8080/asset-bank/rest/list-attribute-values/8","value":"Expired","additionalValue":"Expired (no longer visible)"}
+    {"url":"http://127.0.0.1:8080/asset-bank/rest/list-attribute-values/6","value":"Inactive","additionalValue":"Inactive (no longer visible)"},	
+    {"url":"http://127.0.0.1:8080/asset-bank/rest/list-attribute-values/7","value":"Active","additionalValue":""},
+    {"url":"http://127.0.0.1:8080/asset-bank/rest/list-attribute-values/8","value":"Expired","additionalValue":"Expired (no longer visible)"}
 ]
 ```
 
@@ -21,7 +23,8 @@ Add a new value for the list attribute. The format for the data is the same as t
 Returns a 201 Created response is successful, linking to the new List Attribute Value resource.  
 
 Example (JSON):
-```curl -v -X POST -H "Content-type: application/json" --data '{"value":"Delete", "additionalValue":"Expired, reviewed and marked for deletion"}' http://127.0.0.1:8080/asset-bank/rest/attributes/21/list-attribute-values
+```
+curl -v -X POST -H "Content-type: application/json" --data '{"value":"Delete", "additionalValue":"Expired, reviewed and marked for deletion"}' http://127.0.0.1:8080/asset-bank/rest/attributes/21/list-attribute-values
 ```
 
 Response:

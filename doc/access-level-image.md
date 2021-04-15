@@ -1,7 +1,7 @@
 # Access Level Image Resource
 
 # GET
-This resource doesn't serves the image directly. Instead it returns a 303 redirect to Asset Bank URL which serves the content. Returns a 204 No Content if there is no image associated with the given Access Level.
+This resource doesn't serve the image directly. Instead it returns a 303 redirect to Asset Bank URL which serves the content. Returns a 204 No Content if there is no image associated with the given Access Level.
 
 Example:
 ```

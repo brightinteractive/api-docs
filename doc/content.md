@@ -50,7 +50,7 @@ Response:
 ```
 
 
-Asset Content URL Resource
+# Asset Content URL Resource
 ## GET
 The above asset content resource doesn't serve the asset content directly, instead it returns the URL that serves the content in the body of a 200 response.
 This is a convenience resource for callers who don't want to immediately read the content but instead pass the signed URL onto something else that will.
