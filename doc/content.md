@@ -12,6 +12,8 @@ Response:
 ```
 303 See Other
 ```
+
+**Note**: The resource can return a `Bad Request` response (status 400) if the asset is currently archived.
 ## PUT
 Update the file content for a given asset.  The filename must be set using the Content-Disposition header.  The Content-Type header should be set to "application/octet-stream".
 
@@ -64,3 +66,4 @@ curl -X GET http://127.0.0.1:8080/asset-bank/rest/assets/1/content/url
 200 OK
 Location: https://assetbank.s3-eu-west-1.amazonaws.com/7dd/file.txt?response-content-disposition=attachment%3B%20filename%3D%22file.txtX-Amz-Signature=ad084ed9176a2
 ```
+**Note**: The resource can return a `Bad Request` response (status 400) if the asset is currently archived.
