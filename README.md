@@ -15,6 +15,7 @@ How to ....
 -----------
 
 [Upload a new asset](doc/how-to-upload.md)
+
 [Get updated assets](doc/how-to-poll-for-changes.md)
 
 Endpoints
