@@ -5,12 +5,12 @@ This is mostly a wrapper around Asset Bank's front-end search, i.e. the request 
 
 To perform a search using the API you GET this resource’s URL with the required search parameters. The search parameters that can be passed are similar to those passed to the search action in Asset Bank so that is often a good place to start when identifying the parameters that you need to provide the API request.
 
-### Quick search (keyword search)
+### Quick search (keywords search)
 
-The simplest and most flexbile way to find assets is with the keyword parameter. It will search across all attributes that have been marked as keyword searchable in Asset Bank which will tend to include title, filename, description (but is completely configurable). This is equivalent to the quick search you get from the Asset Bank home page and will likely cover the majority of your requirements.
+The simplest and most flexbile way to find assets is with the keywords parameter. It will search across all attributes that have been marked as keyword searchable in Asset Bank which will tend to include title, filename, description (but is completely configurable). This is equivalent to the quick search you get from the Asset Bank home page and will likely cover the majority of your requirements.
 
 ```
-http://127.0.0.1:8080/asset-bank/rest/asset-search?keyword=bridge
+http://127.0.0.1:8080/asset-bank/rest/asset-search?keywords=bridge
 ```
 
 ### Attributes
