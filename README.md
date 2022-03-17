@@ -18,6 +18,8 @@ How to ....
 
 [Get updated assets](doc/how-to-poll-for-changes.md)
 
+[Synchonize Asset Bank from external system e.g. PIM](how-to-sync-from-external.md)
+
 Endpoints
 ---------
 
