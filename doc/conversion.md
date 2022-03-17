@@ -1,4 +1,9 @@
 # Asset Conversion Resource
+
+## This endpoint is deprecated and will be removed in a future release.
+
+## Use the [transform](transform.html) endpoint instead.
+
 ## GET
 This resource serves a converted version of the asset.
 
