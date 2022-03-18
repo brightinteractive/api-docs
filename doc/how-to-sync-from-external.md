@@ -2,7 +2,7 @@
 
 It's a common requirement where a separate system like a PIM is the source of assets and you want to ensure that Asset Bank is kept updated when changes are made.
 
-In this case there will a unique identifier for each asset from the source system e.g. 'PIM10001'
+In this case there will be a unique identifier for each asset from the source system e.g. 'PIM10001'
 
 In Asset Bank you create a new attribute e.g. 'PIM Identifier' which will be assigned an Asset Bank attribute ID e.g. '704'
 
