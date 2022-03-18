@@ -4,13 +4,13 @@ It's a common requirement where a separate system like a PIM is the source of as
 
 In this case there will a unique identifier for each asset from the source system e.g. 'PIM10001'
 
-In Asset Bank you create a new attribute e.g. 'PIM Identifer' which will be assigned an Asset Bank attribute ID e.g. '704'
+In Asset Bank you create a new attribute e.g. 'PIM Identifier' which will be assigned an Asset Bank attribute ID e.g. '704'
 
 ## Creating new Assets
 
 The process to create a new asset will follow the standard [upload process](how-to-upload.md).
 
-Ensure that metadata external unique identifier has been populated.
+Ensure that the metadata external unique identifier has been populated.
 ```
 {
   "attributes": [
@@ -31,6 +31,7 @@ To update an asset in Asset Bank the caller will require the Asset ID.
 ```
 http://127.0.0.1:8080/asset-bank/rest/asset-search?attribute_704=PIM10001
 ```
+
 Response
 ```
 [
