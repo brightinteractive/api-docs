@@ -60,6 +60,14 @@ http://localhost:8080/asset-bank/rest/asset-search?attribute_3=*+NOT+isempty
       <td>ISO 8601 Date Time</td>
     </tr>
     <tr>
+      <td>dateFirstApprovedLower</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
+      <td>dateFirstApprovedUpper</td>
+      <td>ISO 8601 Date Time</td>
+    </tr>
+    <tr>
       <td>dateModLower</td>
       <td>ISO 8601 Date Time</td>
     </tr>
