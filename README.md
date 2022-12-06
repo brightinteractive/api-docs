@@ -1,7 +1,7 @@
 API Docs
 ========
 
-All endpoints available are documented below, although some are intended for internal use only.
+These docs might be obsolete, please check out our newer API docs [here](https://documenter.getpostman.com/view/10518051/TVK8Zyxr).
 
 There is a [Postman](https://www.getpostman.com/) collection available [here](https://github.com/brightinteractive/api-docs/tree/master/postman) which is gradually being expanded.
 
@@ -47,7 +47,6 @@ Endpoints
 | [/category-search](doc/category-search.md) | GET |
 | [/display-attribute-group](doc/display-attribute-groups.md) | GET |
 | [/display-attribute-group/{id}](doc/display-attribute-group.md) | GET |
-| [/assets/{id}/editor-dependencies](doc/editor-dependencies.md) | GET |
 | [/embedded-data-mappings](doc/embedded-data-mappings.md) | GET |
 | [/embedded-data-mappings/{id}](doc/embedded-data-mapping.md) | GET |
 | [/keywords](doc/keywords.md) | GET |

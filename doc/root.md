@@ -49,7 +49,6 @@ Response:
         "categorySearchUrl": "http://127.0.0.1:8080/asset-bank/rest/category-search",
         "checkoutUrl": "http://127.0.0.1:8080/asset-bank/rest/checkout",
         "displayAttributeGroupUrl": "http://127.0.0.1:8080/asset-bank/rest/display-attribute-groups",
-        "editorDependenciesUrl": "http://127.0.0.1:8080/asset-bank/rest/editor-dependencies",
         "lightboxesUrl": "http://127.0.0.1:8080/asset-bank/rest/lightboxes",
         "publishingActionsUrl": "http://127.0.0.1:8080/asset-bank/rest/publishing-actions",
         "signingUrl": "http://127.0.0.1:8080/asset-bank/rest/sign-url",
